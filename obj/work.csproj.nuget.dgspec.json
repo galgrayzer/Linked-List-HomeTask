@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\galgr\\OneDrive\\שולחן העבודה\\Programs\\work\\work.csproj": {}
+    "C:\\Users\\galgr\\OneDrive\\שולחן העבודה\\Programs\\Task\\work.csproj": {}
   },
   "projects": {
-    "C:\\Users\\galgr\\OneDrive\\שולחן העבודה\\Programs\\work\\work.csproj": {
+    "C:\\Users\\galgr\\OneDrive\\שולחן העבודה\\Programs\\Task\\work.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\galgr\\OneDrive\\שולחן העבודה\\Programs\\work\\work.csproj",
+        "projectUniqueName": "C:\\Users\\galgr\\OneDrive\\שולחן העבודה\\Programs\\Task\\work.csproj",
         "projectName": "work",
-        "projectPath": "C:\\Users\\galgr\\OneDrive\\שולחן העבודה\\Programs\\work\\work.csproj",
+        "projectPath": "C:\\Users\\galgr\\OneDrive\\שולחן העבודה\\Programs\\Task\\work.csproj",
         "packagesPath": "C:\\Users\\galgr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\galgr\\OneDrive\\שולחן העבודה\\Programs\\work\\obj\\",
+        "outputPath": "C:\\Users\\galgr\\OneDrive\\שולחן העבודה\\Programs\\Task\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\galgr\\AppData\\Roaming\\NuGet\\NuGet.Config"
