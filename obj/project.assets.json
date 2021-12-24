@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\galgr\\OneDrive\\שולחן העבודה\\Programs\\Task\\work.csproj",
+      "projectUniqueName": "C:\\Users\\galgr\\Desktop\\programs\\Linked-Lists\\work.csproj",
       "projectName": "work",
-      "projectPath": "C:\\Users\\galgr\\OneDrive\\שולחן העבודה\\Programs\\Task\\work.csproj",
+      "projectPath": "C:\\Users\\galgr\\Desktop\\programs\\Linked-Lists\\work.csproj",
       "packagesPath": "C:\\Users\\galgr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\galgr\\OneDrive\\שולחן העבודה\\Programs\\Task\\obj\\",
+      "outputPath": "C:\\Users\\galgr\\Desktop\\programs\\Linked-Lists\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\galgr\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

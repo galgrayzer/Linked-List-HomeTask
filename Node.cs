@@ -11,6 +11,11 @@ namespace work
             this.value = value;
             this.next = next;
         }
+        public Node(T value)
+        {
+            this.value = value;
+            this.next = null;
+        }
         public T GetValue()
         {
             return this.value;
@@ -29,7 +34,7 @@ namespace work
         }
         public bool HasNext()
         {
-            return this.next == null;
+            return this.next != null;
         }
         public override string ToString()
         {
