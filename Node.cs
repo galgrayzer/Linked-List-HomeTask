@@ -38,14 +38,14 @@ namespace work
         }
         public override string ToString()
         {
-            string str = $"[ ";
+            string str = "{ ";
             Node<T> temp = this;
             while (temp.HasNext())
             {
                 str += temp.GetValue() + ", ";
                 temp = temp.GetNext();
             }
-            str += temp.GetValue() + " ]";
+            str += temp.GetValue() + " }";
             return str;
         }
     }
