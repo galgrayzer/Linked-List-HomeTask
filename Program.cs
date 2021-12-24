@@ -110,11 +110,21 @@ namespace work
             return true;
         }
 
+        public static void Print<T>(Node<T> list) // Print function
+        {
+            if (!list.HasNext()) { Console.WriteLine(list.GetValue()); }
+            else
+            {
+                Console.Write(list.GetValue() + ", ");
+                Print(list.GetNext());
+            }
+        }
+
         static void Main(string[] args)
         {
             // 1.C
             Node<int> list = BuildOrderList();
-            Console.WriteLine(list); // שיניתי את ToString שתדפיס את כל הרשימה
+            Print(list); // שיניתי את ToString שתדפיס את כל הרשימה
 
 
             // 1.D
@@ -128,9 +138,8 @@ namespace work
             // 2.D
             Node<Polinom> polinom1 = BuildPolinom();
             Node<Polinom> polinom2 = BuildPolinom();
-            Console.WriteLine(polinom1 + " | " + polinom2);
             var result = SumPolinoms(polinom1, polinom2);
-            Console.WriteLine(result);
+            Print(result);
 
 
             // 2.E
